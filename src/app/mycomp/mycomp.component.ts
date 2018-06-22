@@ -23,23 +23,14 @@ export class MycompComponent implements OnInit {
 
   ngOnInit() {
   }
-  /**
-   * name
-   */
   
   public fun1() 
   {
-    
     this.name='Kanse';
     console.log("hello !!!!"+this.name);
-    
-    
   }
-
   public fun()
-  {
-     
+  {  
      return this.uname="angular";
-     
   }
 }
